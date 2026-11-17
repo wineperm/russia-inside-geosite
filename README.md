@@ -69,6 +69,7 @@ https://github.com/wineperm/russia-inside-geosite/releases/latest/download/geosi
 
 ## 📁 Структура репозитория
 
+```
 📦 russia-inside-geosite
 ├── 📄 README.md                          # Этот файл
 ├── 📄 .gitignore                         # Исключения для git
@@ -84,6 +85,7 @@ https://github.com/wineperm/russia-inside-geosite/releases/latest/download/geosi
 ├── 📄 custom_allow.lst                   # ➕ Домены для добавления
 ├── 📄 custom_deny.lst                    # ➖ Домены для исключения
 └── 📄 .last_checksum                     # Хеш для отслеживания изменений
+```
 
 ## ⚙️ Как это работает
 
