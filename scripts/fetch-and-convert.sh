@@ -3,6 +3,9 @@ set -e
 
 echo "🔄 Загрузка списка доменов из itdoginfo/allow-domains..."
 
+# 🔥 ДОБАВЛЕНО: Создаем директорию data, если её нет (решает ошибку в GitHub Actions)
+mkdir -p data
+
 # Загрузить основной список
 curl -s -o data/russia-inside.raw \
   "https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-raw.lst"
@@ -20,7 +23,7 @@ echo "🔄 Конвертация в формат domain-list-community..."
 
 # Создать файл с правильным синтаксисом
 {
-  echo "# Russia Inside domains (without YouTube)"
+  echo "# Russia Inside domains"
   echo "# Source: https://github.com/itdoginfo/allow-domains"
   echo "# Generated: $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
   echo ""
