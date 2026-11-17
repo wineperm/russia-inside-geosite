@@ -1,9 +1,7 @@
-```markdown
+markdown
 # 🇷🇺 Russia Inside GeoSite — автоматический генератор geosite.dat
 
 Автоматически обновляемый список российских доменов в формате `geosite.dat` для использования в **Xray**, **V2Ray**, **Passwall2** и других прокси-клиентах на базе Project V.
-
----
 
 ## 📋 Описание
 
@@ -27,8 +25,6 @@
 - **Пользовательские списки**: `custom_allow.lst` и `custom_deny.lst` для постоянной кастомизации
 - **Корректная обработка TLD**: доменные зоны вида `.ua`, `.su` конвертируются в `regexp`-правила
 - **Полная совместимость** с Xray, V2Ray, Passwall2
-
----
 
 ## 🚀 Быстрое использование
 
@@ -71,11 +67,8 @@ https://github.com/wineperm/russia-inside-geosite/releases/latest/download/geosi
 
 > 💡 **Совет**: Российские сайты пойдут напрямую (быстро), заблокированные — через ваш VLESS-прокси.
 
----
-
 ## 📁 Структура репозитория
 
-```
 📦 russia-inside-geosite
 ├── 📄 README.md                          # Этот файл
 ├── 📄 .gitignore                         # Исключения для git
@@ -91,9 +84,6 @@ https://github.com/wineperm/russia-inside-geosite/releases/latest/download/geosi
 ├── 📄 custom_allow.lst                   # ➕ Домены для добавления
 ├── 📄 custom_deny.lst                    # ➖ Домены для исключения
 └── 📄 .last_checksum                     # Хеш для отслеживания изменений
-```
-
----
 
 ## ⚙️ Как это работает
 
@@ -126,8 +116,6 @@ on:
       - 'scripts/**'
   workflow_dispatch:            # Ручной запуск через интерфейс GitHub
 ```
-
----
 
 ## 🛠️ Развёртывание своей копии
 
@@ -172,8 +160,6 @@ permissions:
 
 Файл `geosite.dat` появится в разделе **Releases** после успешного выполнения.
 
----
-
 ## 🔧 Локальное тестирование
 
 ```bash
@@ -202,9 +188,6 @@ cd ..
 
 # 7. Проверьте результат
 sha256sum geosite.dat
-```
-
----
 
 ## 🔄 Обновление на роутере
 
@@ -236,8 +219,6 @@ wget -O /usr/share/xray/geosite-custom.dat \
   https://github.com/wineperm/russia-inside-geosite/releases/latest/download/geosite.dat
 /etc/init.d/passwall2 restart
 ```
-
----
 
 ## ❓ FAQ
 
@@ -285,8 +266,6 @@ googlevideo.com
 
 Доменные зоны автоматически конвертируются в регулярные выражения: `.ua` → `regexp:\.ua$`. Это позволяет матчить все домены, заканчивающиеся на `.ua` (например, `test.ua`, `my.com.ua`).
 
----
-
 ## 🤝 Вклад в проект
 
 Предложения по улучшению приветствуются! 🙌
@@ -297,30 +276,22 @@ googlevideo.com
 4. Отправьте в свой форк: `git push origin feature/amazing-feature`
 5. Откройте **Pull Request**
 
----
-
 ## 📜 Лицензия
 
 Проект распространяется под лицензией **MIT**. См. файл [LICENSE](LICENSE) для деталей.
 
 Исходные данные взяты из репозитория [itdoginfo/allow-domains](https://github.com/itdoginfo/allow-domains) (лицензия автора).
 
----
 
 ## ⚠️ Отказ от ответственности
 
 > Этот проект предоставляется «как есть», без каких-либо гарантий. Автор не несёт ответственности за возможные проблемы при использовании списков.
-
----
 
 ## 📬 Контакты
 
 - 🐛 Сообщить об ошибке: [Issues](https://github.com/wineperm/russia-inside-geosite/issues)
 - 💡 Предложить улучшение: [Discussions](https://github.com/wineperm/russia-inside-geosite/discussions)
 
----
-
 > ⭐ **Понравился проект?** Поставьте звезду — это помогает другим найти репозиторий!
 
 # Если этот репозиторий оказался полезным — поделитесь ссылкой с друзьями! 🙏
-```
