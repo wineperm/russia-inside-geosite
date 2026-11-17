@@ -1,5 +1,5 @@
 
-# Generated: 2026-11-17 18:11:30 UTC
+# Generated: 2026-11-17 18:18:33 UTC
 # Russia Inside domains
 # Source: https://github.com/itdoginfo/allow-domains
 domain:10minutemail.com
@@ -370,7 +370,6 @@ domain:germania.one
 domain:getoutline.com
 domain:getoutline.org
 domain:gfn.am
-domain:ggpht.com
 domain:ghostrc.game.idtech.services
 domain:gifyu.com
 domain:git.new
@@ -386,7 +385,6 @@ domain:golosameriki.com
 domain:gonift.com
 domain:gonitro.com
 domain:goodreads.com
-domain:googlevideo.com
 domain:gpsonextra.net
 domain:gpu-monkey.com
 domain:gql.twitch.tv
@@ -485,7 +483,6 @@ domain:jamf.com
 domain:jetbrains.com
 domain:jetbrains.space
 domain:jetbrains.team
-domain:jnn-pa.googleapis.com
 domain:joesandbox.com
 domain:jskor.ill.in.ua
 domain:jut-su.net
@@ -809,7 +806,6 @@ domain:rentry.org
 domain:republic.ru
 domain:research.net
 domain:restream.io
-domain:returnyoutubedislikeapi.com
 domain:reve.art
 domain:rezka-ua.in
 domain:rezka.ag
@@ -1126,7 +1122,6 @@ domain:wetransfer.com
 domain:whatsapp.biz
 domain:whatsapp.com
 domain:whatsapp.net
-domain:wide-youtube.l.google.com
 domain:widgetapp.stream
 domain:wiki.fextralife.com
 domain:wikidot.com
@@ -1161,19 +1156,6 @@ domain:yande.re
 domain:yeggi.com
 domain:yle.fi
 domain:youtrack.cloud
-domain:youtu.be
-domain:youtube-nocookie.com
-domain:youtube-ui.l.google.com
-domain:youtube.com
-domain:youtubeembeddedplayer.googleapis.com
-domain:youtubei.googleapis.com
-domain:youtubekids.com
-domain:yt-video-upload.l.google.com
-domain:yt.be
-domain:yt3.googleusercontent.com
-domain:ytimg.com
-domain:ytimg.l.google.com
-domain:yting.com
 domain:yummyani.me
 domain:zahav.ru
 domain:zapier.com
